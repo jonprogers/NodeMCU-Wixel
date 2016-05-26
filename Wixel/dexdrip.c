@@ -40,12 +40,12 @@ radio_channel: See description in radio_link.h.
 //                           SET THESE VARIABLES TO MEET YOUR NEEDS                                 //
 //                                   1 = TRUE       0 = FALSE                                       //
 //                                                                                                  //
-  static XDATA const char transmitter_id[] = "ABCDE";                                               //
+  static XDATA const char transmitter_id[] = "6CC1M";                                               //
 //                                                                                                  //
   static volatile BIT only_listen_for_my_transmitter = 1;                                           //
 // 1 is recommended                                                                                 //
 //                                                                                                  //
-  static volatile BIT status_lights = 0;                                                            //
+  static volatile BIT status_lights = 1;                                                            //
 // if status_lights = 1; the yellow light flashes while actively scanning                           //
 // if a light is flashing for more than 10 minutes straight, it may not be picking up your dex      //
 //                                                                                                  //
